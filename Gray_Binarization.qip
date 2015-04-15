@@ -1,0 +1,6 @@
+
+#QIP file for DSP Builder system Gray_Binarization
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "." ]
+set_global_assignment -name SEARCH_PATH [file join $::quartus(qip_path) "Gray_Binarization_dspbuilder/hdl" ]
+
+set_global_assignment -name "QIP_FILE" [file join $::quartus(qip_path) "Gray_Binarization_dspbuilder/hdl/Gray_Binarization.qip" ]
